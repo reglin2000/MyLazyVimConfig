@@ -6,7 +6,8 @@ The current target version is neovim v10.0.3 and LazyVim v12.39, which is publis
 Considering the fast development pace of LazyVim, it is very likely that this configuration doesn't work well on the current LazyVim version and I'll try to up-to-date the whole configuration in the near future.
 
 The configuration's target language is as follows:
-	- C++
-	- Python (a little bit)
-	- Scheme
-	- markdown (for note-taking)
+
+- C++
+- Python (a little bit)
+- Scheme
+- markdown (for note-taking)
