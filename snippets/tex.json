@@ -1,0 +1,31 @@
+{
+  "figure": {
+    "prefix": "fig",
+    "body": [
+
+      "\\begin{figure}[H]",
+      "\t\\centering",
+      "\t% 圖片的高度與寬度, height 設為 ! 代表由寬度大小等比例縮放",
+      "\t\\includegraphics[height=!,width=${1:350}pt,keepaspectratio=true]%",
+      "\t% 圖片的位置",
+      "\t{figures/${2:fig_name}}",
+      "\t% [] 放的是顯示在 list of figure 的文字",
+      "\t% {} 放的是顯示在圖下方的文字",
+      "\t\\caption[${3:fig_cap}]{{\\footnotesize ${4:fig_footnote}}}",
+      "\t\\label{fig:$0}",
+      "\\end{figure}"
+    ],
+    "description": "latex snippet for standard figure"
+  },
+  "equation": {
+    "prefix": "eq",
+    "body": [
+
+      "\\begin{equation}",
+      "\\label{eq:${1:eqLabel}",
+      "${0:equation}",
+      "\\end{equation}"
+    ],
+    "description": "latex snippet for standard figure"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "內容": {
+    "prefix": "內容",
+    "body": [
+
+      "內容：$1",
+      "* 說明：$0"
+    ],
+    "description": "snippet for definintion"
+  }
+}
+
